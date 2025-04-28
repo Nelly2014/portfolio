@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Styling for Profile Pictures */
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds space between the two images */
+    margin-bottom: 15px; /* Space between the images and text */
+  }
+  
+  .profile-image {
+    width: 150px; /* Size for both images */
+    height: 150px;
+    border-radius: 50%; /* Makes the images round */
+    object-fit: cover; /* Ensures the images fit the container */
+  }
+  
+  /* Specific Styles for the Images */
+  .profile-image:first-of-type {
+    border: 2px solid #4CAF50; /* Green border for the first image */
+  }
+  
+  .profile-image:last-of-type {
+    border: 2px solid #333; /* Dark border for the second image */
+  }
+  
